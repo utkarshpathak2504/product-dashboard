@@ -7,7 +7,7 @@ const useFetchProducts = (url) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const dispatch = useDispatch(); // Initialize dispatch
+  const dispatch = useDispatch(); 
 
   useEffect(() => {
     const fetchData = async () => {
