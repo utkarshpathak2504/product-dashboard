@@ -1,0 +1,20 @@
+
+
+.dashboardHeader{
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.filtersContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 20px;
+    justify-content: flex-start;
+}
